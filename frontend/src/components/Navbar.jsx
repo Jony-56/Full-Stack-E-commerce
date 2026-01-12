@@ -15,7 +15,7 @@ const Navbar = () => {
           <p>Home</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <NavLink to="/Colletion" className="flex flex-col items-center gap-1">
+        <NavLink to="/Collection" className="flex flex-col items-center gap-1">
           <p>Collection</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <p>Home</p>
             <hr className="w-20 border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
-          <NavLink onClick={() => setVisible(false)} to="/Colletion" className="flex flex-col items-center gap-1">
+          <NavLink onClick={() => setVisible(false)} to="/Collection" className="flex flex-col items-center gap-1">
             <p>Collection</p>
             <hr className="w-20 border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
