@@ -11,6 +11,7 @@ const Collection = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [sort, setSort] = useState('default');
+  const {search ,showSearchBox} = useContext(ShopContext);
 
   const handleCategoryChange = (category) => {
     setSelectedCategories((prev) =>
@@ -33,6 +34,9 @@ const Collection = () => {
       // product type is stored in `subCategory`
       updated = updated.filter((p) => selectedTypes.includes(p.subCategory));
     }
+    if(showSearchBox && search){
+      updated = updated.filter((p)=> p.name.toLowerCase().includes(search.toLowerCase()));
+    }
 
     // sorting
     if (sort === 'priceLowToHigh') {
@@ -44,7 +48,7 @@ const Collection = () => {
     }
 
     setFilteredProducts(updated);
-  }, [products, selectedCategories, selectedTypes, sort]);
+  }, [products, selectedCategories, selectedTypes, sort,search,showSearchBox]);
 
   // initialize when products load
   useEffect(() => {
@@ -58,7 +62,7 @@ const Collection = () => {
       <div className="flex text-start mb-2">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => setIsOpen((s) => !s)}>
           <p className="text-xl font-bold">FILTERS</p>
-          <img src={assets.dropdown_icon} alt="dropdown" className={`sm:hidden w-2 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+          <img src={assets.dropdown_icon} alt="dropdown" className={`sm:hidden w-2 transition-transform ${isOpen ? 'rotate-90' : ''}`} />
         </div>
       </div>
 
