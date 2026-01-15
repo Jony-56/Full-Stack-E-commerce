@@ -2,15 +2,17 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
 import { assets } from '../assets/assets';
+import RelatedProduct from '../components/RelatedProduct';
 
 const Product = () => {
   const { ProductId } = useParams();
-  const { products } = useContext(ShopContext);
+  const { products, AddToCart } = useContext(ShopContext);
   const [product, setProduct] = useState(null);
   const [image, setimage] = useState("");
   const [size , setSize] = useState("");
   const hangleSelectSize = (size)=>{
     setSize(size);
+  
   }
 
   const fetchProduct = async () => {
@@ -19,7 +21,7 @@ const Product = () => {
       if (item._id === (ProductId)) {
         setProduct(item);
         setimage(item.image[0]);
-        console.log(item);
+        
 
       }
       return null;
@@ -30,7 +32,7 @@ const Product = () => {
   }, [ProductId, products]);
   return product ? (
     <div>
-      <div className="flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-20 my-10 px-4 md:px-10">
+      <div className="flex flex-col lg:flex-row gap-6 md:gap-12 lg:gap-20 my-10 px-4 md:px-10">
 
   {/* Thumbnails */}
   <div className="flex md:flex-col gap-3 overflow-x-auto md:overflow-visible">
@@ -60,7 +62,7 @@ const Product = () => {
       className="
         w-full
         max-w-md sm:max-w-lg md:max-w-xl
-        h-auto
+        aspect-square 
         object-cover
         rounded-lg
       "
@@ -85,18 +87,18 @@ const Product = () => {
     <div>
       {
         product.sizes.map((s, index) => (
-          <button onClick={()=>setSize(s)} key={index}  className={`border px-4 py-2 mr-3 mb-3 rounded-md hover:bg-black hover:text-white transition ${size===s ? 'bg-black text-white': 'bg-white text-black'}`}>
+          <button onClick={()=>hangleSelectSize(s)} key={index}  className={`border px-4 py-2 mr-3 mb-3 rounded-md hover:bg-black hover:text-white transition ${size===s ? 'bg-black text-white': 'bg-white text-black'}`}>
             {s}
           </button>
         ))
       }
     </div>
 
-    <button className="bg-black text-white px-6 py-3 rounded-md w-max hover:bg-gray-800 transition">
+    <button onClick={()=>AddToCart(product._id,size)} className="bg-black text-white px-6 py-3 rounded-md w-max hover:bg-gray-800 transition">
       Add to Cart
     </button>
     <hr className='mt-10 sm:w-4/5' />
-    <div className='flex flex-col gap-1 text-gray-600'>
+    <div className='flex flex-col gap-1 text-gray-600 items-center lg:items-start text-sm'>
       <p>100% Original Product</p>
       <p>Free Delivery on orders above $50</p>
       <p>Easy Returns and Exchanges</p>
@@ -118,6 +120,9 @@ const Product = () => {
 
         </div>
 
+      </div>
+      <div>
+        <RelatedProduct category={product.category} type={product.subCategory} />
       </div>
 
     </div>
