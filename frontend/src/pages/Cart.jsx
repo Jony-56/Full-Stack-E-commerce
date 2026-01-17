@@ -4,6 +4,7 @@ import Title from '../components/Title';
 import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 import CartTotal from '../components/CartTotal';
+import Orders from './Orders';
 
 const Cart = () => {
    const {products, currency, cartItems, updateQuantity, removeFromCart} = useContext(ShopContext);
@@ -126,7 +127,7 @@ const Cart = () => {
           <div className='bg-gray-50 p-4 sm:p-6 rounded-lg w-full sm:max-w-md sm:ml-auto'>
             
           <CartTotal/>
-            <button onClick={()=>nevigate("/place-order")} className='w-full mt-4 bg-black text-white py-3 rounded-md hover:bg-gray-800 transition text-sm sm:text-base'>
+            <button onClick={()=>nevigate("/PlaceOrder")} className='w-full mt-4 bg-black text-white py-3 rounded-md hover:bg-gray-800 transition text-sm sm:text-base'>
               Proceed to Checkout
             </button>
           </div>
@@ -134,6 +135,7 @@ const Cart = () => {
       )}
       
     </div >
+
   )
 }
 

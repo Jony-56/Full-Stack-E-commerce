@@ -19,7 +19,7 @@ const Footer = () => {
           <p>Home</p>
          
         </NavLink>
-        <NavLink to="/Colletion" className="flex flex-col items-center gap-1">
+        <NavLink to="/Collection" className="flex flex-col items-center gap-1">
           <p>Collection</p>
          
         </NavLink>
