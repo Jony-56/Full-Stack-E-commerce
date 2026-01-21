@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DriveD\\React\\ecommece-app\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29EDA7B4-6668-492F-8E57-3BA606DA07A7}|Api.csproj|e:\\drived\\react\\ecommece-app\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29EDA7B4-6668-492F-8E57-3BA606DA07A7}|Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7C13CD-0D33-494A-A76E-9F1D1CE6A6E3}|..\\DAL\\DAL.csproj|e:\\drived\\react\\ecommece-app\\dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7D0DC40-502B-465C-888E-790FCA207FFD}|..\\BLL\\BLL.csproj|e:\\drived\\react\\ecommece-app\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\Backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\Backend\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-21T21:30:58.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Product.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Product.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wBQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:53:06.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Order.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:53:23.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\OrderItem.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:56:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Payment.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Payment.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:56:32.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:09:49.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Category.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Category.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:52:44.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\Cart.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\Cart.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:54:29.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Entities\\User.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\DAL\\Entities\\User.cs",
+              "RelativeToolTip": "..\\DAL\\Entities\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:49:40.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\DriveD\\React\\ecommece-app\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Class1.cs",
+              "ToolTip": "E:\\DriveD\\React\\ecommece-app\\BLL\\Class1.cs",
+              "RelativeToolTip": "..\\BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:09:24.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

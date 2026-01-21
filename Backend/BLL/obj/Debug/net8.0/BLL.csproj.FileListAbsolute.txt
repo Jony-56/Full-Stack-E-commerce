@@ -1,0 +1,13 @@
+E:\DriveD\React\ecommece-app\BLL\bin\Debug\net8.0\BLL.deps.json
+E:\DriveD\React\ecommece-app\BLL\bin\Debug\net8.0\BLL.dll
+E:\DriveD\React\ecommece-app\BLL\bin\Debug\net8.0\BLL.pdb
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.dll
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\refint\BLL.dll
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.pdb
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\ref\BLL.dll
+E:\DriveD\React\ecommece-app\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
